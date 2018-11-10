@@ -1,50 +1,48 @@
 <html>
 <head>
-<title>donor sign up</title>
+<title>collectorr sign up</title>
 <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="donor.css">
+    <link rel="stylesheet" type="text/css" href="collector.css">
 <body>
     <div class="loginbox">
     <img src="avatar.png" class="avatar">
        <!-- <h1>Sign up</h1>-->
         <form>
             <p>name</p>
-            <input type="text" name="" placeholder="Enter Username">
+            <input type="text" name="name" placeholder="Enter Username">
 			<p>address</p>
-			<input type="text" name="" placeholder="Enter Address">
+			<input type="text" name="address" placeholder="Enter Address">
 			<p>pincode</p>
-			<input type="number" name="" placeholder="Enter Pincode">
+			<input type="number" name="pinCode" placeholder="Enter Pincode">
 			<p>phone_no</p>
-			<input type="number" name="" placeholder="Enter Phone number">
+			<input type="number" name="Phone_no" placeholder="Enter Phone number">
 			<p>date of birth</p>
-			<input type="date" name="" placeholder="Enter DOB">
+			<input type="date" name="BirthDate" placeholder="Enter DOB">
 			<p>uid no</p>
-			<input type="number" name="" placeholder="Enter UID No">
+			<input type="number" name="UID" placeholder="Enter UID No">
 			<p>email id</p>
-			<input type="email" name="" placeholder="Enter Email Id">
+			<input type="email" name="email" placeholder="Enter Email Id">
+			<p>username</p>
+			<input type="text" name="username" placeholder="Enter Username">
             <p>password</p>
-            <input type="password" name="" placeholder="Enter Password">
-            <p>username</p>
-			<input type="text" name="" placeholder="Enter Username">
-			<p>school</p>
-			<input type="text" name="" placeholder="Enter school name">
-			<p>high school</p>
-			<input type="text" name="" placeholder="Enter high-school name">
-			<p>Degree</p>
-			
-			
-			<select name="degree" id="degree">
+            <input type="password" name="password" placeholder="Enter Password">
+			<p>driving license number</p>
+<input type="text" name="Driving_license" placeholder="Enter Driving license no.">
+			<p>qualification</p>
+			<select name="qualification" name="qualification">
         <option selected>-- Select Group --</option>
-        <option>B.Com</option>
-        <option>B.sc</option>
-        <option>B.com Computers</option>
-        <option>B.A</option>
+        <option>10th pass</option>
+        <option>12th pass</option>
+        <option>UG</option>
+        <option>PG</option>
       </select>
-	  
 			<p>upload image</p>
-			<input type="file" name="" placeholder="Upload your photo">			
-            <input type="submit" name="" value="Sign Up Donor">
+			<input type="file" name="image" placeholder="Upload your photo">		
+
+		<p>upload driving license photo</p>
+		<input type="file" name="Driving_License_image" placeholder="Upload your photo">		
+            <input type="submit" action="create_Collector" value="Sign Up Collector">
            <!-- <a href="#">Lost your password?</a><br>
             <a href="#">Don't have an account?</a>
 			-->
